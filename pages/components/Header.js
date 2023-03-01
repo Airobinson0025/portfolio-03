@@ -11,7 +11,7 @@ const Header = () => {
         </div>
         
         <div>
-            <ul className='flex space-x-7 text-stone-300 text-lg md:text-xl font-bold cursor-pointer
+            <ul className='flex space-x-7 text-stone-300 text-lg md:text-xl lg:text-2xl font-bold cursor-pointer
             hover:text-white transition duration-100'>
                 <li className='hover:text-orange-600 transition duration-300'><a href='#about'>About</a></li>
                 <li className='hover:text-orange-600 transition duration-300'><a href='expertise'>Expertise</a></li>
@@ -23,7 +23,7 @@ const Header = () => {
 
         <div>
             <a href='AaronResume.pdf' download>
-                <button className='text-white text-lg font-bold border-2 border-white p-2 rounded-md hover:border-transparent
+                <button className='text-white text-lg md:text-xl font-bold border-2 border-white p-2 rounded-md hover:border-transparent
                 hover:bg-orange-500 hover:text-stone-600 hover:translate-y-1 active:scale-90 transition duration-200'>Resume.pdf</button>
             </a>
         </div>
