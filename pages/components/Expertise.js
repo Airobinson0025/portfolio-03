@@ -12,7 +12,7 @@ import { SiNextdotjs } from 'react-icons/si'
 
 const Expertise = () => {
   return (
-    <div className='flex flex-col items-center justify-center'id='expertise'>
+    <div className='flex flex-col items-center justify-center py-32'id='expertise'>
         <h1 className='text-white text-6xl font-semibold pb-24'>My Expertise</h1>
 
 
@@ -22,7 +22,7 @@ const Expertise = () => {
                <FaReact size={50} color='white'/>
                <h2 className='font-semibold text-3xl text-white underline underline-offset-8 decoration-indigo-500 decoration-4 decoration-double'>Fullstack Dev</h2>
             </div>
-            <p className='flex font-space text-white text-lg pb-10'>
+            <p className='flex font-space text-stone-200 text-lg pb-10'>
                 Passionate about frontend and backend development. Recent graduate from Virginia Tech Universitys Web Development Program, powered by FullStack Academy. Experience in React and Next,js frameworks.
             </p>
         </div>
@@ -30,10 +30,10 @@ const Expertise = () => {
         <div className='flex flex-col border-4 border-whiite min-w-[450px] max-w-[625px] mt-10 rounded-md'>
             <div className='flex items-center py-10 px-4'>
                <AiOutlineTool size={50} color='white'/>
-               <h2 className='font-semibold text-3xl text-white underline underline-offset-8 decoration-pink-500 decoration-4 decoration-double'>Skills & Tools</h2>
+               <h2 className='font-semibold text-3xl text-white underline underline-offset-8 decoration-orange-500 decoration-4 decoration-double px-4'>Skills & Tools</h2>
             </div>
 
-            <div className='grid grid-cols-2 md:grid-cols-4 py-6'>
+            <div className='grid grid-cols-2 sm:grid-cols-4 md:grid-cols-4 py-6'>
 
                <div className='py-2 px-6 space-y-2 '>
                    <SiHtml5 size={50} color='#f59e0b'/>

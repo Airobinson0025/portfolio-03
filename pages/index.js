@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Expertise from './components/Expertise'
 import Header from './components/Header'
 import Hero from './components/Hero'
+import MyWork from './components/MyWork'
 import About from './components/About'
 
 
@@ -27,6 +28,10 @@ export default function Home() {
 
      <section>
         <Expertise />
+      </section>
+
+      <section>
+        <MyWork />
       </section>
      
      </main>
