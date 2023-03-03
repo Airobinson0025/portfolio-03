@@ -37,11 +37,11 @@ const About = () => {
             </p>
             
             <p className='pt-6 tracking-wide'>  
-              I decided to transition into the tech industry to chase my dream of being a developer and a designer. Which lead me to attend The University of Virginia Tech&aposs web development program, powered by FullStack Academy. The journey was difficult at times, but the reward of friendships and postive outcomes through adversity has produced an even deeper desire to learn more about developing.
+              I decided to transition into the tech industry to chase my dream of being a developer and a designer. Which lead me to attend The University of Virginia Techs web development program, powered by FullStack Academy. The journey was difficult at times, but the reward of friendships and postive outcomes through adversity has produced an even deeper desire to learn more about developing.
             </p>
 
             <p className='pt-6 tracking-wide'>
-              I want to make the same impact on the world through developing, as I did practicing medicince. Make a difference in the life around, one person at a time.
+              I want to make the same impact on the world through developing, as I did practicing medicine. Make a difference in the life around me, one person at a time.
             </p>
            </div> : 
            
@@ -51,11 +51,11 @@ const About = () => {
            </p>
            
            <p className='pt-6 tracking-wide'>  
-             I decided to transition into the tech industry to chase my dream of being a developer and a designer. Which lead me to attend The University of Virginia Tech&aposs web development program, powered by FullStack Academy. The journey was difficult at times, but the reward of friendships and postive outcomes through adversity has produced an even deeper desire to learn more about developing.
+             I decided to transition into the tech industry to chase my dream of being a developer and a designer. Which lead me to attend The University of Virginia Techs web development program, powered by FullStack Academy. The journey was difficult at times, but the reward of friendships and postive outcomes through adversity has produced an even deeper desire to learn more about developing.
            </p>
 
            <p className='pt-6 tracking-wide'>
-             I want to make the same impact on the world through developing, as I did practicing medicince. Make a difference in the life around, one person at a time.
+             I want to make the same impact on the world through developing, as I did practicing medicine. Make a difference in the life around me, one person at a time.
            </p>
           </div> }
 
