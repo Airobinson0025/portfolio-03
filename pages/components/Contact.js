@@ -51,7 +51,7 @@ const Contact = () => {
       <div className='flex flex-col items-center bg-color bg-stone-400 pt-20 space-y-6 md:w-1/2 '>
         <ImQuotesLeft size={50} className='bg-stone-400'/>
         <p className='text-2xl md:text-3xl text-center font-garamond bg-stone-400'>
-          Dont let yesterday take up to much of today.
+          Dont let yesterday take up too much of today.
         </p>
         <p  className='text-2xl md:text-3xl font-garamond bg-stone-400'>- Will Rogers</p>
         <ImQuotesRight size={50} className='bg-stone-400'/>
