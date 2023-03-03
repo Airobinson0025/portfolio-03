@@ -12,11 +12,11 @@ const Header = () => {
         </div>
         
         <div>
-            <ul className='flex space-x-7 text-stone-300 text-center text-lg lg:text-xl font-bold font-space cursor-pointer px-6 hover:text-white transition duration-100 tracking-widest'>
-               
-                <li className='hover:text-purple-500 transition duration-400 active:scale-90'><a href='#expertise'>Expertise</a></li>
-                <li className='hover:text-purple-500 transition duration-400 active:scale-90'><a href='#work'>Work</a></li>
-                <li className='hover:text-purple-500 transition duration-400 active:scale-90'><a href='#contact'>Contact</a></li>
+            <ul className='flex space-x-4 sm:space-x-6 text-stone-300 text-center text-lg lg:text-xl font-bold font-space cursor-pointer px-6 hover:text-white transition duration-100 tracking-widest'>
+                <li className='hover:text-purple-400 transition duration-400 active:scale-90'><a href='#about'>About</a></li>
+                <li className='hover:text-purple-400 transition duration-400 active:scale-90'><a href='#expertise'>Expertise</a></li>
+                <li className='hover:text-purple-400 transition duration-400 active:scale-90'><a href='#work'>Work</a></li>
+                <li className='hover:text-purple-400 transition duration-400 active:scale-90'><a href='#contact'>Contact</a></li>
                 
             </ul>
         </div>

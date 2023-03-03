@@ -4,7 +4,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import MyWork from './components/MyWork'
 import About from './components/About'
-
+import Contact from './components/Contact'
 
 
 export default function Home() {
@@ -26,12 +26,20 @@ export default function Home() {
         <Hero />
       </section>
 
+      <section>
+        <About />
+      </section>
+
      <section>
         <Expertise />
       </section>
 
       <section>
         <MyWork />
+      </section>
+
+      <section>
+        <Contact />
       </section>
      
      </main>

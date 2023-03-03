@@ -16,7 +16,7 @@ const Hero = () => {
             <h1 className='text-pink-500'>.</h1>
         </div>
 
-        <div className='flex font-semibold font-space text-md md:text-lg space-x-2 tracking-[12px] py-10'>
+        <div className='flex font-semibold font-space text-md md:text-lg text-center space-x-2 tracking-[6px] sm:tracking-[12px] py-10'>
             
             <h2 className='text-stone-300'> | </h2>
             <h2 className='text-yellow-400'>FULLSTACK DEVELOPER</h2>
@@ -33,7 +33,7 @@ const Hero = () => {
 
 
         <div className='my-32 py-5 border-2 border-purple-600 rounded-full animate-pulse hover:translate-y-1 transition duration-300'>
-          <a href='#expertise'>
+          <a href='#about'>
              <BsArrowDown size={45} color='#e7e5e4'/>
           </a>   
         </div>

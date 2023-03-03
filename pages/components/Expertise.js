@@ -12,7 +12,7 @@ import { SiNextdotjs } from 'react-icons/si'
 
 const Expertise = () => {
   return (
-    <div className='flex flex-col items-center justify-center py-32'id='expertise'>
+    <div className='flex flex-col items-center justify-center py-20'id='expertise'>
         <h1 className='text-white text-6xl font-semibold pb-24'>My Expertise</h1>
 
 
@@ -27,7 +27,7 @@ const Expertise = () => {
             </p>
         </div>
 
-        <div className='flex flex-col border-4 border-whiite min-w-[450px] max-w-[625px] mt-10 rounded-md'>
+        <div className='flex flex-col border-4 border-whiite max-w-[650px] mt-24 mx-4 rounded-md'>
             <div className='flex items-center py-10 px-4'>
                <AiOutlineTool size={50} color='white'/>
                <h2 className='font-semibold text-3xl text-white underline underline-offset-8 decoration-orange-500 decoration-4 decoration-double px-4'>Skills & Tools</h2>

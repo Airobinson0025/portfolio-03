@@ -14,19 +14,17 @@ const ProjectCard = ({img, name, description, link, gitlink, tools}) => {
 
         <div className='flex items-center space-x-2 text-white hover:text-purple-400 transition duration-300'>
             <FaLink size={25} color='#a8a29e' />
-            <a href={link} target='_blank'className='font-semibold text-xl 
-            ' rel="noreferrer">Visit site</a>
+            <a href={link} target='_blank'className='font-semibold text-xl text-stone-700 border-2 border-stone-200 py-2 px-4 rounded-lg bg-stone-200 hover:text-white hover:border-transparent hover:bg-stone-500 hover:translate-y-1 active:scale-90 transition transform duration-300' rel="noreferrer">Visit site</a>
         </div>
 
-        <div className='flex items-center space-x-2 text-white hover:text-purple-400 transition duration-300'>
+        <div className='flex items-center space-x-2'>
             <FaGithub size={25} color='#a8a29e'/>
-            <a href={gitlink} target='_blank'className='font-semibold text-xl
-            ' rel="noreferrer">Github Repository</a>
+            <a href={gitlink} target='_blank'className='font-semibold text-xl text-stone-700 border-2 border-stone-200 py-2 px-4 rounded-lg bg-stone-200 hover:text-white hover:border-transparent hover:bg-stone-500 hover:translate-y-1 active:scale-90 transition transform duration-300' rel="noreferrer">Github Repository</a>
         </div>
 
         <div className='flex items-center space-x-2'> 
             <FaTools size={25} color='#a8a29e'/>
-            <p className='font-space font-bold text-md text-white md:text-xl'>{tools}</p>
+            <p className='font-semibold text-md text-stone-300 md:text-xl'>{tools}</p>
         </div>
 
         
