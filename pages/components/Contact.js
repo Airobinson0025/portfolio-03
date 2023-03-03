@@ -33,13 +33,13 @@ const Contact = () => {
 
         <div className='flex items-center space-x-4 bg-neutral-600'>
           <AiFillGithub size={35} color='white' className='bg-neutral-600'/>
-          <a href='https://github.com/Airobinson0025?tab=repositories' className='cursor-pointer hover:text-orange-400'>
+          <a href='https://github.com/Airobinson0025?tab=repositories' target='_blank' className='cursor-pointer hover:text-orange-400'>
           <p className='text-stone-200 text-lg font-semibold bg-neutral-600 hover:text-orange-400'>Github</p></a>
         </div>
 
         <div className='flex items-center space-x-4 bg-neutral-600'>
           <AiFillLinkedin size={35} color='white' className='bg-neutral-600'/>
-          <a href='https://www.linkedin.com/in/aaron-robinson-b3949425b/' className='cursor-pointer hover:text-orange-400'>
+          <a href='https://www.linkedin.com/in/aaron-robinson-b3949425b/' target='_blank'className='cursor-pointer hover:text-orange-400'>
           <p className='text-stone-200 text-lg font-semibold bg-neutral-600 hover:text-orange-400 '>Linkedin</p>
           </a>
         </div>
